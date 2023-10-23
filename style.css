@@ -1,0 +1,59 @@
+@media only screen and (max-width: 9000px) {
+    body {
+      color: white;
+      background-image : url(https://i.imgur.com/JMDM5fS.jpg);
+      background-size :cover;
+    }
+  }
+  
+  *{
+    box-sizing: border-box;
+    padding: 0px 2px 1px 2px;
+      margin: 5px -1px; 
+      outline: none;
+      border: none;
+  }
+  .nav-link{
+    color : pink;
+    text-decoration: none;
+    padding :10px 30px;
+  
+  } 
+  
+  header{
+    color : darkblue;
+  }
+  
+  p:hover{
+    color : red;
+  }
+  
+  ul:hover{
+    color : red;
+  }
+  code{
+    background-color : rgba(250,20,0,0.2);
+  }
+  #navbar{
+    position : fixed;
+    border-right : solid;
+    padding : 20px;
+    padding-top: 0px;
+    margin: 0;
+  
+  }
+  
+  #main-doc{
+    padding-left : 310px
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  li .nav-link {
+    border-top : 2px solid;
+    border-left : 2px solid;
+    border-right : 2px solid;
+    padding : 2px 20px 0px 20px;
+    
+  }
